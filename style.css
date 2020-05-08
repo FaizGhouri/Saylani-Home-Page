@@ -1,0 +1,853 @@
+.container-fluid {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.main{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+
+}
+
+.sub{
+    background-color: royalblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.imgbt {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative ;
+
+}
+
+
+
+.facebook,.whatsapp,.instagram,.youtube,.twitter{
+    width: 18px;
+    
+}    
+
+.logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.para {
+
+    padding-top: 20px;
+    display: flex;
+    color: ivory;
+    font-size: 0.8em;
+}
+
+
+.button {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.UK,.donate,.results{
+    
+    display: flex;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1em;
+    font-weight: 500;   
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(231, 228, 228);
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.saylani{
+    display: flex;
+    flex-direction: row;
+    flex: 1px;
+    width: 191px;
+    height: 52px;
+    position: relative;
+    top: 0px;
+    left: 0px;  
+    
+}
+.home{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+:hover.home{
+    background-color: royalblue;
+}
+
+.about{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    height: 40px;
+}
+
+:hover.about{
+    background-color: royalblue;
+}
+
+.Services{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+:hover.Services{
+    background-color: royalblue;
+}
+
+.project{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+:hover.project{
+    background-color: royalblue;
+}
+
+.media{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+:hover.media{
+    background-color: royalblue;
+}
+
+.news{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+:hover.news{
+    background-color: royalblue;
+}
+
+:hover.donation{
+    background-color: royalblue;
+}
+
+.donation{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+
+}
+
+.car {
+    width: 100% ;
+
+}
+
+.d-block{
+    width: 100%;
+    height: 600px;
+    
+}
+ .container{
+    position: relative;
+    top: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(7, 53, 192);
+    height: 30px;
+    width: 1150px;
+    padding-top: 10px;
+    align-content: center;
+    text-align: center;
+}
+.green{ 
+    color: rgb(20, 240, 20);
+}
+.white{
+    color: ivory;
+}
+.blue{
+    color: blue;
+}
+.paragraph{
+    display: flex;
+    display: inline-flex;
+}
+
+.all{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    padding-top: 800px;
+}
+
+.intro{
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.2em;
+    font-weight: bold;
+
+}
+
+.duction{
+    color: rgb(20, 240, 20);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.2em;
+    font-weight: bold;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.favi{
+    width: 40px;
+    height: 40px;
+}
+
+hr{
+    width: 30%;
+    background-color: darkgreen;
+    border: none;
+}
+
+.passage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mess {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%; 
+}
+
+.message {
+    
+    width: 90%;
+    text-align: justify;
+    padding-top: 10px;
+
+}
+.month{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 150px;
+    background-color: rgb(7, 53, 192);
+    width: 100%;
+    height: 300px;
+    
+}
+
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.icon{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    width: 20%;
+    padding-top: 50px;
+}
+
+.food{
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.num{
+    color: ivory;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.dailmon{
+    color: rgb(82, 252, 82);
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.daily{
+    display: flex;
+    flex-wrap: wrap;
+    color: ivory;
+    font-size: 1.3em;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.cofa{
+  
+    position: relative;
+    top: 0px;
+    text-align: center;
+    width: 20%;
+    padding-top: 50px;
+
+
+}
+
+.adoption{
+    color: ivory;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.adopmon{
+    color: rgb(82, 252, 82);
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.famliy{
+    width: 40px;
+    height: 40px;
+}
+
+
+.medmon {
+    color: rgb(82, 252, 82);
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.health{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    width: 20%;
+}
+
+.M{
+    width: 40px;
+    height: 40px;
+}
+.MH {
+    color: ivory;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.edunum{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    width: 20%;
+}
+ 
+
+.edu{
+     width: 40px;
+     height: 40px;
+}
+
+.education{
+    color: ivory;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.edumon{
+    color: rgb(82, 252, 82);
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.mains{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.what{
+     display: flex;
+     flex-direction: row;
+     font-size: 2em;
+     justify-content: center;
+     position: relative;
+     top: 200px;
+     font-family: 'Times New Roman', Times, serif;
+     width: 100%;
+}
+
+.we{
+     color: rgb(7, 53, 192);
+     font-weight: 500;
+}
+
+.are{
+    color: rgb(20, 240, 20);
+    font-weight: 500;
+}
+
+.fan{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.for{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.favinew{
+    width: 40px;
+    height: 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: honeydew;
+    position: relative;
+    top: 10px;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    height: 600px;
+}
+
+
+.branch{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    width: 30%;
+    height: 40%;
+    padding-top: 50px; 
+    -moz-box-shadow: 0 0 15px #777777;
+    -webkit-box-shadow: 0 0 15px #777777;
+    box-shadow: 0 0 15px #777777;
+    background-color: ivory;
+}
+
+
+.sad-branch{
+    color: blue;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.sadqah{
+  
+    width: 70px;
+    height: 70px;
+}
+
+
+.welfare{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    width: 30%;
+    height: 40%;
+    padding-top: 50px; 
+    -moz-box-shadow: 0 0 15px #777777;
+    -webkit-box-shadow: 0 0 15px #777777;
+    box-shadow: 0 0 15px #777777;
+    background-color: ivory;
+}
+
+
+.wel{
+    width: 70px;
+    height: 70px;
+}
+
+
+.fare{
+    color: blue;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.mission{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    height: 400px;
+    width: 100%;
+}
+
+.drive{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.up{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: rgb(12, 12, 224);
+    font-size: 1.8em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+
+    
+}
+
+.event{
+    color: rgb(12, 12, 224);
+   font-size: 1em;
+   font-weight: 600; 
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.four{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.mars{
+    display: flex;
+    padding-right: 150px;
+}
+
+
+.pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    height: 100px;
+    padding-left: 40px;
+
+}
+
+.hepa{
+    width: 32px;
+    height: 32px;
+}
+.hepatitis{
+    display: flex;
+    flex-direction: row;
+    border: 1px rgb(140, 212, 212) solid;
+    width: 400px;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgb(233, 248, 248);
+}
+
+
+.titis{
+   color: mediumblue;
+   font-size: 1em;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+.housing{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: 1px rgb(140, 212, 212) solid;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: rgb(233, 248, 248);
+}
+.house{
+    width: 32px;
+    height: 32px;
+}
+.society{
+    color: mediumblue;
+   font-size: 1em;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.IT{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 900px;
+    height: 100px;
+    padding-left: 40px;
+    position: relative;
+    top: -150px;
+
+
+}
+.it-literacy{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 248, 248);
+    padding-left: 10px;
+    padding-top: 20px; 
+    width: 400px;
+    height: 80px;
+    border: solid rgb(140, 212, 212) 1px;
+}
+.it{
+    width: 32px;
+    height: 32px;
+}
+.literacy{
+    color: mediumblue;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+ }
+.thar{
+    display: flex;
+    flex-direction: row;
+    border: solid  rgb(140, 212, 212) 1px ;
+    width: 400px;
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: rgb(233, 248, 248);
+}
+.park{
+    width: 32px;
+    height: 32px;
+
+}
+.kar{
+    color: mediumblue;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+.gall{
+    color: rgb(7, 53, 192);
+     font-weight: 500;
+}
+.IG{
+    color: rgb(20, 240, 20);
+    font-weight: 500;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.two{
+    width: 40px;
+    height: 40px;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.six{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.screen{
+    height: 150px;
+    width: 200px;
+}
+
+
+.finished{
+    padding-top: 100px;
+    width: 100%;
+}
+.random{
+    width: 100%;
+    height: 400px;
+    color: ivory;
+    background-color: rgb(6, 7, 14);
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.us{
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 200px;
+}
+.end{
+    background-color: rgb(8, 97, 133);
+    color: ivory;
+    width: 100%;
+    height: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+
+}
